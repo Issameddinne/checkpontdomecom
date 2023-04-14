@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: white
+}
+
+.header {
+    display: flex;
+    height: 100px;
+    background-color:#d8dad3;
+}
+
+.left-section{
+cursor: pointer;
+width: 200px;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.center-section{
+  
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.right-section{
+    width: 200px;
+height: 100%;
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+i{
+    color: black;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px transparent solid;
+    transition: all linear 0.5s;
+    font-weight: 400;
+}
+
+.link:hover{
+    border-bottom: 2px black solid;
+    font-weight: 500;
+}
+
+.produits {
+
+display: flex;
+justify-content: space-evenly;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.card {
+    
+    width: 45%;
+    display: flex;
+    align-items: center;
+    padding:30px 10px;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.47);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.47);
+    border-radius: 15px;
+}
+
+.image {
+width: 30%;
+}
+
+.title {
+font-size: 18px;
+font-weight: 500;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+
+.desc {
+    font-size: 13px;
+  
+}
+
+.price {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.buy {
+    width: 100%;
+    border: 0px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 0px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+.buy:hover {
+    border-radius: 10px;
+}
+
+.row {
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.plus{
+width: 30px;
+height: 30px;
+border: 0px;
+background-color: black;
+color: white;
+cursor: pointer;
+}
+
+.minus{
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.qty{
+color: black;
+font-weight: 500;
+}
+.totale{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
