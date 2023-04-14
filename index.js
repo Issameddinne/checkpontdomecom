@@ -20,6 +20,7 @@ for (let index = 0; index < buttonsPlus.length; index++) {
      buttonsMinus[index].addEventListener('click', function()  {
         if(qtys[index].innerHTML > 0){
              qtys[index].innerHTML--
+            totale()
          }
          
       })  
@@ -29,6 +30,7 @@ var trash = document.querySelectorAll(".fa-trash-can");
 for (let i = 0; i < trash.length; i++) {
   trash[i].addEventListener("click", function () {
     trash[i].parentElement.parentElement.parentElement.remove();
+      totale()
   });
 }
 
